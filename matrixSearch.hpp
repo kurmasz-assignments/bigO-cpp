@@ -1,3 +1,5 @@
+#ifndef MATRIX_SEARCH_HPP
+#define MATRIX_SEARCH_HPP
 
 #include <iostream>
 #include <vector>
@@ -27,3 +29,4 @@ bool matrixSearch(const T& value, const Matrix<T>& vec) {
   return answer;
 }
 
+#endif
